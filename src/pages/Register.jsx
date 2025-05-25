@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import '../style/Login_Register.css';
 import { supabase } from '../supabase';
 import imagenLogin from '../assets/instagram-web-lox-image-removebg-preview.png';
-import imagenLogo from '../assets/instagramLogoBlanco.png';
+import imagenLogo from '../assets/InstagramLogoBlanco.png';
 
 const Register = ({ setUser }) => {
     const [email, setEmail] = useState('');
