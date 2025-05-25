@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caja1 {
+    width: 60%;
+    height: 600px;
+    justify-content: space-between;
+    display: flex;
+    margin: 64px 40vh;
+}
+
+.caja2 {
+    width: 50%;
+}
+
+.caja2 img {
+    width: 100%;
+    margin-top: 15vh;
+}
+
+.caja3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja3 img {
+    margin-top: 13vh;
+    width: 25vh;
+    margin-left: 16vh;
+}
+
+.caja3 .input1 {
+    border: 1px solid #777777;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    width: 40vh;
+    margin-top: 5vh;
+    margin-left: 9vh;
+    color: white;
+}
+
+.caja3 button {
+    border: 1px solid #777777;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #2d50c4;
+    font-size: small;
+    font-weight: bold;
+    width: 40vh;
+    margin-top: 5vh;
+    margin-left: 9vh;
+    color: white;
+    cursor: pointer;
+}
+
+.caja3 .input1:focus {
+    outline-color: white;
+    background-color: #212121;
+    color: #e8e8e8;
+    box-shadow: 5px 5px #888888;
+}
+
+.caja3 span {
+    color: white;
+    font-size: 2vh;
+    font-family: "Arial";
+    margin: 2vh;
+    margin-left: 28vh;
+}
+
+.caja3 p {
+    color: white;
+    font-family: "Arial";
+    margin-left: 12vh;
+}

@@ -1,0 +1,42 @@
+.stories-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem 0;
+    gap: 1rem;
+    scrollbar-width: none;
+}
+
+.stories-container::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+}
+
+.circle-border {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+
+.story-name {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 4px;
+}
