@@ -3,6 +3,7 @@ import '../style/Home.css';
 import { Link } from 'react-router-dom';
 import Stories from '../components/Stories';
 import Feed from '../components/Feed';
+import patosImg from '../assets/PATOS.jpeg';
 
 
 const Home = () => {
@@ -96,14 +97,10 @@ const Home = () => {
                     </div>
 
                     <Link to="/perfil" className="usuario">
-                        <img src="/img-user.jpeg" alt="usuario" />
-                        <div className="info-usuario">
-                            <div className="nombre-email">
-                                <span className="nombre">User</span>
-                            </div>
-                            <ion-icon name="ellipsis-vertical-outline"></ion-icon>
-                        </div>
-                    </Link>
+  <img src={patosImg} alt="usuario" />
+  <span className="nombre">User</span>
+  <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+</Link>
                 </div>
             </div>
 
@@ -119,4 +116,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Home; 

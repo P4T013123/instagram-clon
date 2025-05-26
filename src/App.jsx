@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Perfil from './pages/Perfil';
 
 function App() {
   const [user, setUser] = useState(localStorage.getItem('user'));
@@ -34,7 +35,15 @@ function App() {
         <Route
           path="/Home"
           element={user ? <Home /> : <Navigate to="/Login" />}
+          />
+
+        <Route
+          path="/Perfil"
+          element={user ? <Perfil /> : <Navigate to="/Login" />}
         />
+
+          
+        
       </Routes>
     </Router>
   );

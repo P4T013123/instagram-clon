@@ -416,3 +416,38 @@ main button ion-icon {
         margin-left: 0px;
     }
 }
+
+
+/* ====== Fila de usuario ====== */
+.usuario {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  text-decoration: none;       /* quita subrayado */
+  color: inherit;              /* conserva color del modo claro/oscuro */
+  border-radius: 8px;
+}
+
+.usuario:hover {
+  background: rgba(0,0,0,0.05);   /* sutil highlight */
+}
+
+.usuario img {
+  width: 28px;            /* Instagram usa ~28 px */
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.usuario .nombre {
+  font-weight: 600;
+  font-size: 14px;
+  flex: 1;                /* empuja el icono de opciones a la derecha */
+  white-space: nowrap;    /* evita salto */
+}
+
+.usuario ion-icon {
+  font-size: 18px;
+}
